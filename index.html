@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technician Tools Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Left Sidebar Navigation -->
+        <nav class="sidebar">
+            <div class="sidebar-header">
+                <h1>Technician Tools</h1>
+            </div>
+            <ul class="nav-menu">
+                <li>
+                    <a href="#software" class="nav-link" onclick="showSection('software')">
+                        <span class="icon">⚙️</span>
+                        <span>Software</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#hardware" class="nav-link" onclick="showSection('hardware')">
+                        <span class="icon">🔧</span>
+                        <span>Hardware</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Software Section -->
+            <section id="software" class="content-section active">
+                <div class="section-header">
+                    <h2>Software Tools</h2>
+                    <p>Essential software and applications for technical work</p>
+                </div>
+                <div class="content-grid">
+                    <div class="card">
+                        <h3>Add Your Software Tools</h3>
+                        <p>Software tools will appear here. Edit the content in index.html to add your tools.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Hardware Section -->
+            <section id="hardware" class="content-section">
+                <div class="section-header">
+                    <h2>Hardware Tools</h2>
+                    <p>Equipment and devices for technical work</p>
+                </div>
+                <div class="content-grid">
+                    <div class="card">
+                        <h3>Add Your Hardware Tools</h3>
+                        <p>Hardware tools will appear here. Edit the content in index.html to add your tools.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
